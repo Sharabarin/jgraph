@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-practic" insertBefore="administration">
+        <item screen="practic_Fabric.browse"/>
+        <item screen="practic_Brand.browse"/>
+        <item screen="practic_Shop.browse"/>
+        <item screen="practic_NewScreen"/>
+    </menu>
+</menu-config>

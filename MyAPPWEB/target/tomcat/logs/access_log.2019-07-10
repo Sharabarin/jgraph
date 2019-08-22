@@ -1,0 +1,6 @@
+127.0.0.1 - - [10/Jul/2019:09:11:42 +0400] "GET /app/PUSH?v-uiId=1&v-pushId=6cfdf6af-b9c4-4ce0-9df8-2135fe115193&X-Atmosphere-tracking-id=281cb4e6-ac13-4e0f-b591-ac6c83446bbb&X-Atmosphere-Framework=2.3.2.vaadin1-javascript&X-Atmosphere-Transport=websocket&X-Atmosphere-TrackMessageSize=true&Content-Type=application/json;%20charset=UTF-8&X-atmo-protocol=true HTTP/1.1" 404 967 http-bio-8080-exec-1 27
+0:0:0:0:0:0:0:1 - - [10/Jul/2019:09:11:42 +0400] "POST /app/HEARTBEAT/?v-uiId=1 HTTP/1.1" 404 979 http-bio-8080-exec-3 27
+0:0:0:0:0:0:0:1 - - [10/Jul/2019:09:11:44 +0400] "GET / HTTP/1.1" 200 321 http-bio-8080-exec-5 367
+0:0:0:0:0:0:0:1 - - [10/Jul/2019:09:11:46 +0400] "GET /sw.js HTTP/1.1" 404 961 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [10/Jul/2019:09:11:52 +0400] "GET /app/PUSH?v-uiId=1&v-pushId=6cfdf6af-b9c4-4ce0-9df8-2135fe115193&X-Atmosphere-Transport=close&X-Atmosphere-tracking-id=281cb4e6-ac13-4e0f-b591-ac6c83446bbb&_=1562735512054 HTTP/1.1" 404 967 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [10/Jul/2019:09:12:16 +0400] "GET /sw.js HTTP/1.1" 404 961 http-bio-8080-exec-9 3

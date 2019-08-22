@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://browseCaption"
+
+        messagesPack="com.company.practic.web.screens.shop">
+    <data readOnly="true">
+        <collection id="shopsDc"
+                    class="com.company.practic.entity.Shop"
+                    view="shop-view-with_brand">
+            <loader id="shopsDl">
+                <query>
+                    <![CDATA[select e from practic_Shop e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="mapContainer"
+            spacing="true">
+
+        <vbox id="mapContainer" width="100%"/>
+
+
+    </layout>
+</window>
