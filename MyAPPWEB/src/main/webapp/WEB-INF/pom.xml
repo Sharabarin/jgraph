@@ -9,7 +9,7 @@
 	<name>vaadin-app</name>
 
 	<properties>
-		<vaadin.version>7.6.6</vaadin.version>
+		<vaadin.version>7.7.24</vaadin.version>
 		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 		<jetty.plugin.version>9.2.3.v20140905</jetty.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -71,7 +71,7 @@
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-bom</artifactId>
-			<version>8.0.5</version>
+			<version>7.7.24</version>
 			<type>pom</type>
 			<scope>import</scope>
 		</dependency>
